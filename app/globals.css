@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow: hidden;
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Glass Box Effects */
+@layer components {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl transition-all duration-300;
+  }
+
+  .glass-panel:hover {
+    @apply bg-white/10 border-white/20;
+  }
+}
+
+/* Matrix/Terminal Scrolling Text */
+.matrix-text {
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 5px rgba(34, 197, 94, 0.5);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-white/20;
+}
+
+/* React Flow Customizations */
+.react-flow__pane {
+  background-image:
+    radial-gradient(circle at 2px 2px, rgba(255, 255, 255, 0.05) 1px, transparent 0);
+  background-size: 40px 40px;
+}
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background: #3b82f6;
+  border: 2px solid #000;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2;
+  stroke: rgba(255, 255, 255, 0.1);
+}
+
+/* Glow Animations */
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+    border-color: rgba(59, 130, 246, 0.6);
+  }
+}
+
+.glow-active {
+  animation: pulse-glow 2s infinite;
+}

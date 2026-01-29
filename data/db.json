@@ -1,0 +1,528 @@
+{
+  "breakthru-shopmart-db": {
+    "state": {
+      "users": [
+        {
+          "id": "u1",
+          "email": "demo@breakthru.dev",
+          "name": "Demo User",
+          "password": "password",
+          "avatar": "https://ui-avatars.com/api/?name=Demo+User&background=3b82f6&color=fff"
+        },
+        {
+          "id": "1khwas",
+          "email": "AkashC@gmail.com",
+          "name": "Aakash Chakresh",
+          "password": "Aakash@95",
+          "avatar": "https://ui-avatars.com/api/?name=Aakash%20Chakresh&background=random"
+        }
+      ],
+      "session": {
+        "id": "1khwas",
+        "email": "AkashC@gmail.com",
+        "name": "Aakash Chakresh",
+        "password": "Aakash@95",
+        "avatar": "https://ui-avatars.com/api/?name=Aakash%20Chakresh&background=random"
+      },
+      "products": [
+        {
+          "id": "lap-1",
+          "name": "QuantumBook Pro v1",
+          "price": 1300,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-2",
+          "name": "QuantumBook Pro v2",
+          "price": 1400,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-3",
+          "name": "QuantumBook Pro v3",
+          "price": 1500,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-4",
+          "name": "QuantumBook Pro v4",
+          "price": 1600,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-5",
+          "name": "QuantumBook Pro v5",
+          "price": 1700,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-6",
+          "name": "QuantumBook Pro v6",
+          "price": 1800,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-7",
+          "name": "QuantumBook Pro v7",
+          "price": 1900,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-8",
+          "name": "QuantumBook Pro v8",
+          "price": 2000,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-9",
+          "name": "QuantumBook Pro v9",
+          "price": 2100,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "lap-10",
+          "name": "QuantumBook Pro v10",
+          "price": 2200,
+          "image": "💻",
+          "category": "Laptops",
+          "description": "High-performance quantum laptop.",
+          "stock": 0
+        },
+        {
+          "id": "mob-1",
+          "name": "NeuralPhone X1",
+          "price": 850,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-2",
+          "name": "NeuralPhone X2",
+          "price": 900,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-3",
+          "name": "NeuralPhone X3",
+          "price": 950,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-4",
+          "name": "NeuralPhone X4",
+          "price": 1000,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-5",
+          "name": "NeuralPhone X5",
+          "price": 1050,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-6",
+          "name": "NeuralPhone X6",
+          "price": 1100,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-7",
+          "name": "NeuralPhone X7",
+          "price": 1150,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-8",
+          "name": "NeuralPhone X8",
+          "price": 1200,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-9",
+          "name": "NeuralPhone X9",
+          "price": 1250,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-10",
+          "name": "NeuralPhone X10",
+          "price": 1300,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-11",
+          "name": "NeuralPhone X11",
+          "price": 1350,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-12",
+          "name": "NeuralPhone X12",
+          "price": 1400,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-13",
+          "name": "NeuralPhone X13",
+          "price": 1450,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-14",
+          "name": "NeuralPhone X14",
+          "price": 1500,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "mob-15",
+          "name": "NeuralPhone X15",
+          "price": 1550,
+          "image": "📱",
+          "category": "Mobiles",
+          "description": "Direct neural interface smartphone.",
+          "stock": 100
+        },
+        {
+          "id": "acc-1",
+          "name": "Holo-Projector Mini 1",
+          "price": 170,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-2",
+          "name": "Holo-Projector Mini 2",
+          "price": 190,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-3",
+          "name": "Holo-Projector Mini 3",
+          "price": 210,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-4",
+          "name": "Holo-Projector Mini 4",
+          "price": 230,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-5",
+          "name": "Holo-Projector Mini 5",
+          "price": 250,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-6",
+          "name": "Holo-Projector Mini 6",
+          "price": 270,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-7",
+          "name": "Holo-Projector Mini 7",
+          "price": 290,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-8",
+          "name": "Holo-Projector Mini 8",
+          "price": 310,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-9",
+          "name": "Holo-Projector Mini 9",
+          "price": 330,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-10",
+          "name": "Holo-Projector Mini 10",
+          "price": 350,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-11",
+          "name": "Holo-Projector Mini 11",
+          "price": 370,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-12",
+          "name": "Holo-Projector Mini 12",
+          "price": 390,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-13",
+          "name": "Holo-Projector Mini 13",
+          "price": 410,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-14",
+          "name": "Holo-Projector Mini 14",
+          "price": 430,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "acc-15",
+          "name": "Holo-Projector Mini 15",
+          "price": 450,
+          "image": "🔌",
+          "category": "Accessories",
+          "description": "Portable holographic emitter.",
+          "stock": 200
+        },
+        {
+          "id": "wear-1",
+          "name": "SmartLens AR 1",
+          "price": 340,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-2",
+          "name": "SmartLens AR 2",
+          "price": 380,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-3",
+          "name": "SmartLens AR 3",
+          "price": 420,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-4",
+          "name": "SmartLens AR 4",
+          "price": 460,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-5",
+          "name": "SmartLens AR 5",
+          "price": 500,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-6",
+          "name": "SmartLens AR 6",
+          "price": 540,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-7",
+          "name": "SmartLens AR 7",
+          "price": 580,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-8",
+          "name": "SmartLens AR 8",
+          "price": 620,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-9",
+          "name": "SmartLens AR 9",
+          "price": 660,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-10",
+          "name": "SmartLens AR 10",
+          "price": 700,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-11",
+          "name": "SmartLens AR 11",
+          "price": 740,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-12",
+          "name": "SmartLens AR 12",
+          "price": 780,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-13",
+          "name": "SmartLens AR 13",
+          "price": 820,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-14",
+          "name": "SmartLens AR 14",
+          "price": 860,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        },
+        {
+          "id": "wear-15",
+          "name": "SmartLens AR 15",
+          "price": 900,
+          "image": "👓",
+          "category": "Wearables",
+          "description": "Augmented reality contact lenses.",
+          "stock": 75
+        }
+      ],
+      "cart": []
+    },
+    "version": 0
+  }
+}
